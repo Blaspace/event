@@ -306,7 +306,7 @@ form {
     border-radius: 2px;
     color: aquamarine;
     text-align: center;
-    width: 400px;
+    width: 100%;
 }
 form input, form textarea {
     border: 0;
@@ -326,11 +326,15 @@ form button {
     cursor: pointer;
     margin: 5px;
 }
+.contact-flex{
+    width: 90%;
+}
 .contact {
-    margin: 20px;
+    margin: 0px;
     justify-items: center;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .contact-heading {
     background-color: rgb(23, 23, 100);
@@ -341,8 +345,8 @@ form button {
 /*GALARY PAGE*/
 
 .image img{
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
 }
 
 .container .below {
@@ -376,7 +380,7 @@ form button {
     border-style: groove;
 }
 
-@media (min-width: 888px) {
+@media (min-width: 1000px) {
     .top-text-container{
         text-align:left;
     }
@@ -402,8 +406,8 @@ form button {
         justify-content: space-evenly;
     }
     .image img{
-        width: 350px;
-        height: 350px;
+        width: 400px;
+        height: 400px;
     }
     .nav-button{
         display: none;
@@ -412,6 +416,6 @@ form button {
         display: block;
     }
     form{
-        width: 800px;
+        width: 100%;
     }
 }
